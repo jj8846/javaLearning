@@ -1,0 +1,14 @@
+package text2;
+
+import org.junit.Test;
+
+public class WrapperTest 
+{
+	@Test
+	public void wrapperTest()
+	{
+		Integer num1=new Integer(20);
+		Integer num2=new Integer("516");
+		System.out.println(num2);
+	}
+}

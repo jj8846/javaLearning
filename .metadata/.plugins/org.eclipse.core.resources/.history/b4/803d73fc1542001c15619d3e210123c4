@@ -1,0 +1,22 @@
+package abstractTest;
+
+public class HourlyEmployee extends Employee
+{
+		public HourlyEmployee(String name, int number, MyDate birthday,int wage,int hours) 
+		{
+			super(name, number, birthday);
+			this.wage=wage;
+			this.hour=hour;
+		}
+		private int wage;
+		private int hour;
+		public int earnings()
+		{
+			return wage*hour;
+		}
+		public String toString()
+		{
+			System.out.println("时薪员工"+getName()+getNumber()+getBirthday().toString());
+			return ("时薪员工"+getName()+getNumber()+getBirthday().toString());
+		}
+}

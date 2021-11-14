@@ -1,0 +1,7 @@
+package abstractTest;
+
+public class PayrollSystem 
+{
+	Employee[] emoployees=new Employee[2];
+	for(int i=0;i<)
+}

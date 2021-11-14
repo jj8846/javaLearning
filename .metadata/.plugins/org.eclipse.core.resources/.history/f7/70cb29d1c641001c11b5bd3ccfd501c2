@@ -1,0 +1,10 @@
+package text2;
+
+public class finalTest 
+{
+		public final int a;
+		public finalTest ()
+		{
+			a=1;
+		}
+}

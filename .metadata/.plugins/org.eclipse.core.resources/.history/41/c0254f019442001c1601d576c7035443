@@ -1,0 +1,18 @@
+package InterfacePractice;
+
+public class ComparableCircle extends Circle implements CompareObject 
+{
+
+	public ComparableCircle(double redius) {
+		super(redius);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int compareTo(Object o) 
+	{
+		Circle circle=(Circle)o;
+		return (int)(this.getRedius()-circle.getRedius());
+	}
+	
+}

@@ -1,0 +1,19 @@
+package InterfacePractice;
+
+public class InterfaceTest 
+{
+	public static void main(String[] args)
+	{
+			ComparableCircle c1=new ComparableCircle(5);
+			ComparableCircle c2=new ComparableCircle(6);
+			System.out.println(c1.compareTo(c2));
+	
+	Integer num1= new Integer(5);
+	int num2=num1.intValue();
+	System.out.println("************************");
+	System.out.println(num2);
+	System.out.println("########################");
+	String str1=String.valueOf("123");
+	System.out.println(str1);
+	}
+}

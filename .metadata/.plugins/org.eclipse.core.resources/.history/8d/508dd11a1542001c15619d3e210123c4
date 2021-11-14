@@ -1,0 +1,14 @@
+package abstractTest;
+
+public abstract class Employee 
+{
+	private String name;
+	private int number;
+	private MyDate birthday;
+	
+	public abstract void earnings();
+	public String toString()
+	{
+		return (name+number+birthday);
+	}
+}
